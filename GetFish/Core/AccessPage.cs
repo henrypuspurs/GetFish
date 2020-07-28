@@ -14,7 +14,7 @@ namespace GetFish.Core
             List<Fish> fishlist = new List<Fish>();
             WebClient client = new WebClient();
             WebPage thisPage = new WebPage();
-            string pre = "https://www.fishbase.se/Summary/";
+            string pre = "https://www.thesiteIused.se/Summary/";
             int post = 1;
             int invalidCount = 0;
             for (int validCount = 0; validCount < capture;)
